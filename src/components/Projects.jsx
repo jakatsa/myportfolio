@@ -50,7 +50,12 @@ export const Projects = () => {
                 liveLink="https://reacttraveljournal.netlify.app/"
                 githubLink="https://github.com/jakatsa/traveljournal"
               />
-
+              <ProjectCard
+                title="Github Search Application"
+                description="This is a web application that allows users to search for GitHub users by their username. Upon entering a search term, the app fetches and displays a list of matching GitHub users along with their profile pictures and profile URLs. Users can then view repositories associated with each user by clicking the Show repositories button, which retrieves and lists the repositories, including their names and URLs. The app provides a simple and intuitive interface to explore GitHub profiles and repositories."
+                liveLink="https://github-search-app-zeta-eight.vercel.app/"
+                githubLink="https://github.com/jakatsa/Github-Search-app"
+              />
               <ProjectCard
                 title="Flatacuties"
                 description="This application is a simple web-based interface to display a list of characters fetched from a server using html and javascript. Each character is represented by a button, and clicking on a button reveals the character's details, including their name, image, and vote count. 
