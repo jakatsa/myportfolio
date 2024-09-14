@@ -13,10 +13,15 @@ export const Projects = () => {
             </div>
             <div className="row gx-5 justify-content-center">
               <ProjectCard
-                title="PataPic"
-                description="I had the honor of working with Vincent, a creative FreeLance photographer owner of PataPic. I enjoyed working on this and contributing to the dreams of another young person. This image portfolio is subtle yet captivating.
+                title="Dorcas Oduor (Attorney General Kenya)"
+                description="I had the honor of working on Kenya's first femlae Attorney General's personal website.This project was created using wordpress CMS"
+                liveLink="https://dorcasoduor.com/"
+              />
+              <ProjectCard
+                title="Safari Navigator"
+                description="I had the honor of working with Safari Navigator, a brand that is focused on improving the travel and tourism industry. 
                 This project was created using wordpress CMS"
-                liveLink="https://patapic.site/wp/"
+                liveLink="https://safari-navigator.club/"
               />
               {/* Project Cards */}
               <ProjectCard
@@ -50,24 +55,12 @@ export const Projects = () => {
                 liveLink="https://reacttraveljournal.netlify.app/"
                 githubLink="https://github.com/jakatsa/traveljournal"
               />
-              <ProjectCard
-                title="Toy Tale "
-                description="This is a simple web application that allows users to view, add, and like toys. The application is built using HTML, CSS, and JavaScript, and it interacts with a JSON server to fetch and store toy data."
-                liveLink="https://toy-tale.vercel.app/"
-                githubLink="https://github.com/jakatsa/ToyTale"
-              />
+
               <ProjectCard
                 title="Github Search Application"
                 description="This is a web application that allows users to search for GitHub users by their username. Upon entering a search term, the app fetches and displays a list of matching GitHub users along with their profile pictures and profile URLs. Users can then view repositories associated with each user by clicking the Show repositories button, which retrieves and lists the repositories, including their names and URLs. The app provides a simple and intuitive interface to explore GitHub profiles and repositories."
                 liveLink="https://github-search-app-zeta-eight.vercel.app/"
                 githubLink="https://github.com/jakatsa/Github-Search-app"
-              />
-              <ProjectCard
-                title="Flatacuties"
-                description="This application is a simple web-based interface to display a list of characters fetched from a server using html and javascript. Each character is represented by a button, and clicking on a button reveals the character's details, including their name, image, and vote count. 
-                Additionally, users can remove the character details display by clicking a remove button.NB please ensure you run the db.json using json-server --watch db.json"
-                liveLink="https://flatacuties-rust.vercel.app/"
-                githubLink="https://github.com/jakatsa/flatacuties"
               />
 
               <ProjectCard
