@@ -72,6 +72,20 @@ export const SkillCard = () => {
               </div>
             </div>
           </div>
+          <div className="row row-cols-1 row-cols-md-3">
+            <div className="col mb-4 mb-md-0">
+              <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                WordPress Framework
+              </div>
+            </div>
+          </div>
+          <div className="row row-cols-1 row-cols-md-3">
+            <div className="col mb-4 mb-md-0">
+              <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                MySql
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
