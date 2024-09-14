@@ -18,6 +18,24 @@ export const Experience = () => {
             <section>
               <h2 className="text-primary fw-bolder mb-0">Experience</h2>
               <ExperienceCard
+                year="2024"
+                title="Web Designer"
+                company="Cyber Age Africa "
+                location="Nairobi, Kenya"
+                description="Safari Navigator is a company that focuses on provding digital solutions ranging from websites to AI solutions .
+               
+                "
+              />
+              <ExperienceCard
+                year="2024"
+                title="Web Designer"
+                company="Safari navigator "
+                location="Nairobi, Kenya"
+                description="Safari Navigator is a company that focuses on improving the travel expeirence of tourists.
+                Duties include Theme Development and customization using wordpress
+                "
+              />
+              <ExperienceCard
                 year="2023"
                 title="Web Designer"
                 company="Mia Nane Studios"
