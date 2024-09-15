@@ -22,7 +22,7 @@ export const Experience = () => {
                 title="Web Designer"
                 company="Cyber Age Africa "
                 location="Nairobi, Kenya"
-                description="Safari Navigator is a company that focuses on provding digital solutions ranging from websites to AI solutions .
+                description="CyberAge Africa  is a company that focuses on provding digital solutions ranging from websites to AI solutions.
                
                 "
               />
