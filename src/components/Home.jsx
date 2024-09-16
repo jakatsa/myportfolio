@@ -205,7 +205,7 @@ export const Home = () => {
                   <span className="text-gradient d-inline">About Me</span>
                 </h2>
                 <p className="lead fw-light mb-4">
-                  My name is Joe Akatsa and I help brands grow.
+                  My name is Warren Otiende and I help brands grow.
                 </p>
                 <p className="text-muted">
                   As a Front-End Developer.I possess an impressive arsenal of
