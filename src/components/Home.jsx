@@ -202,7 +202,7 @@ export const Home = () => {
             <div className="col-xxl-8">
               <div className="text-center my-5">
                 <h2 className="display-5 fw-bolder">
-                  <span className="text-gradient d-inline">About Me</span>
+                  <span className="text-gradient d-inline">About Me.</span>
                 </h2>
                 <p className="lead fw-light mb-4">
                   My name is Warren Otiende and I help brands grow.
