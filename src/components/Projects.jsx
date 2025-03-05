@@ -13,8 +13,14 @@ export const Projects = () => {
             </div>
             <div className="row gx-5 justify-content-center">
               <ProjectCard
+                title="NextBeat"
+                description="NextBeat lets users explore, upload, and trade beats effortlessly. With seamless registration and login, the platform is evolving with upcoming M-Pesa integration for smooth payments and messaging features for better collaboration. Stay tuned! "
+                liveLink="https://next-beat-front-end.vercel.app/LandingPage"
+                githubLink="https://github.com/jakatsa/NextBeatFrontEnd"
+              />
+              <ProjectCard
                 title="Dorcas Oduor (Attorney General Kenya)"
-                description="I had the honor of working on Kenya's first femlae Attorney General's personal website.This project was created using wordpress CMS"
+                description="I had the honor of working on Kenya's first female Attorney General's personal website.This project was created using wordpress CMS"
                 liveLink="https://dorcasoduor.com/"
               />
               <ProjectCard
@@ -24,7 +30,7 @@ export const Projects = () => {
                 liveLink="https://safari-navigator.club/"
               />
               {/* Project Cards */}
-              <ProjectCard
+              {/* <ProjectCard
                 title="React Contact Manager"
                 description="ContactBook is a lightweight contact manager application built with React, designed to simplify the process of storing and managing contacts directly within the browser.The application has also been dockerized"
                 liveLink="https://contactmanager-93ih.vercel.app/"
@@ -91,7 +97,7 @@ export const Projects = () => {
                 title="To-Do List"
                 description="This project basically covers the fundamentals of JavaScript such as manipulation of the DOM."
                 liveLink="https://cqvtkluh62xbo7adaiqcba.on.drv.tw/www.TODOLIST.com/"
-              />
+              /> */}
               {/* Add more ProjectCard components for other projects */}
             </div>
           </div>
