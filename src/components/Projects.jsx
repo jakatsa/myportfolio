@@ -13,11 +13,18 @@ export const Projects = () => {
             </div>
             <div className="row gx-5 justify-content-center">
               <ProjectCard
+                title="MiniMart"
+                description="MiniMart is a cutting-edge e-commerce platform that seamlessly connects buyers and sellers in a dynamic online marketplace. Built with Django and React, the application boasts a robust architecture designed for scalability and efficiency. I am in the process of integrating CI/CD pipelines and enhancing our infrastructure to further improve performance, while also working on M-Pesa integration and advanced user authentication. This evolving project exemplifies our commitment to innovative technology solutions and a superior user experience."
+                liveLink="https://miniecommfrontend.vercel.app/HomePage"
+                githubLink="https://github.com/jakatsa/miniecommfrontend"
+              />
+              <ProjectCard
                 title="NextBeat"
-                description="NextBeat lets users explore, upload, and trade beats effortlessly. With seamless registration and login, the platform is evolving with upcoming M-Pesa integration for smooth payments and messaging features for better collaboration. Stay tuned! "
-                liveLink="https://next-beat-front-end.vercel.app/LandingPage"
+                description="Built with django in the backend and react on the frontend, NextBeat lets users explore, upload, and trade beats effortlessly. With seamless registration and login, the platform is evolving with upcoming M-Pesa integration for smooth payments and messaging features for better collaboration.I am in the process of integrating CI/CD pipelines and enhancing our infrastructure to further improve performance, Stay tuned! "
+                liveLink="https://nextbeatfrontend.onrender.com/"
                 githubLink="https://github.com/jakatsa/NextBeatFrontEnd"
               />
+
               <ProjectCard
                 title="Dorcas Oduor (Attorney General Kenya)"
                 description="I had the honor of working on Kenya's first female Attorney General's personal website.This project was created using wordpress CMS"

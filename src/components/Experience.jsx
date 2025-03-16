@@ -18,6 +18,12 @@ export const Experience = () => {
             <section>
               <h2 className="text-primary fw-bolder mb-0">Experience</h2>
               <ExperienceCard
+                year="2024 - Current "
+                title="Web Designer"
+                company="Go Research "
+                location="Nairobi, Kenya"
+              />
+              <ExperienceCard
                 year="2024"
                 title="Web Designer"
                 company="Cyber Age Africa "
@@ -35,15 +41,7 @@ export const Experience = () => {
                 Duties include Theme Development and customization using wordpress
                 "
               />
-              <ExperienceCard
-                year="2023"
-                title="Web Designer"
-                company="Mia Nane Studios"
-                location="Nairobi, Kenya"
-                description="Mia Nane Studios is a creative hub, which provides services in mostly artist spaces such as animation, graphic design, concerts, etc.
-                Duties include Theme Development and customization using wordpress
-                "
-              />
+
               <ExperienceCard
                 year="2023"
                 title="Web Designer"
@@ -65,13 +63,12 @@ export const Experience = () => {
                 description="Studied web development at Moringa School. Learned the fundamentals of web development with HTML, CSS, JavaScript, React Js, Python, SQL, and Flask and created responsive web pages and robust web applications."
               />
               <EducationCard
-                duration="2023"
-                institution="Scrimba"
-                location="Online"
-                certificate="Certificate"
-                field="Web Development"
-                description="Studied web development at Scrimba. Learned the fundamentals of front-end web development with HTML, CSS, JavaScript, and React Js and created responsive web pages and robust web applications."
+                institution="Mount Kenya University"
+                location="Nairobi"
+                certificate="Degree"
+                field="Criminology"
               />
+
               <EducationCard
                 duration="2023"
                 institution="Google Skills For Africa"
