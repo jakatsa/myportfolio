@@ -15,7 +15,7 @@ export const Projects = () => {
               <ProjectCard
                 title="MiniMart"
                 description="MiniMart is a cutting-edge e-commerce platform that seamlessly connects buyers and sellers in a dynamic online marketplace. Built with Django ,React and React Redux the application boasts a robust architecture designed for scalability and efficiency. I am in the process of integrating CI/CD pipelines and enhancing our infrastructure to further improve performance, while also working on M-Pesa integration and advanced user authentication. This evolving project exemplifies our commitment to innovative technology solutions and a superior user experience."
-                liveLink="https://miniecommfrontend.vercel.app/HomePage"
+                liveLink="https://miniecommfrontend.vercel.app/"
                 githubLink="https://github.com/jakatsa/miniecommfrontend"
               />
               <ProjectCard
