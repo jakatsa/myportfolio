@@ -12,7 +12,7 @@ export const Projects = () => {
               </h1>
             </div>
             <div className="row gx-5 justify-content-center">
-              <ProjectCard
+              {/* <ProjectCard
                 title="MiniMart"
                 description="MiniMart is a cutting-edge e-commerce platform that seamlessly connects buyers and sellers in a dynamic online marketplace. Built with Django ,React and React Redux the application boasts a robust architecture designed for scalability and efficiency. I am in the process of integrating CI/CD pipelines and enhancing our infrastructure to further improve performance, while also working on M-Pesa integration and advanced user authentication. This evolving project exemplifies our commitment to innovative technology solutions and a superior user experience."
                 liveLink="https://miniecommfrontend.vercel.app/"
@@ -23,7 +23,7 @@ export const Projects = () => {
                 description="Built with django in the backend and react, with react redux for state management  on the frontend, NextBeat lets users explore, upload, and trade beats effortlessly. With seamless registration and login, the platform is evolving with upcoming M-Pesa integration for smooth payments and messaging features for better collaboration.I am in the process of integrating CI/CD pipelines and enhancing our infrastructure to further improve performance, Stay tuned! "
                 liveLink="https://nextbeatfrontend.onrender.com/"
                 githubLink="https://github.com/jakatsa/NextBeatFrontEnd"
-              />
+              /> */}
 
               <ProjectCard
                 title="Dorcas Oduor (Attorney General Kenya)"
@@ -105,7 +105,7 @@ export const Projects = () => {
                 description="This project basically covers the fundamentals of JavaScript such as manipulation of the DOM."
                 liveLink="https://cqvtkluh62xbo7adaiqcba.on.drv.tw/www.TODOLIST.com/"
               /> */}
-              {/* Add more ProjectCard components for other projects */}
+          
             </div>
           </div>
         </section>
