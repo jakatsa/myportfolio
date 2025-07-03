@@ -13,18 +13,17 @@ export const Projects = () => {
             </div>
             <div className="row gx-5 justify-content-center">
               <ProjectCard
+                title="NextBeat"
+                description="Built with django in the backend and react, with react redux for state management  on the frontend, NextBeat lets users explore, upload, and trade beats effortlessly. With seamless registration and login, the platform is evolving with upcoming M-Pesa integration for smooth payments and messaging features for better collaboration.I am in the process of integrating CI/CD pipelines and enhancing our infrastructure to further improve performance, Stay tuned! "
+                // liveLink="https://nextbeatfrontend.onrender.com/"
+                videoLink="https://www.awesomescreenshot.com/video/41650232?key=e3277563df65542b39b29cdfe9a4a932"
+              />
+              <ProjectCard
                 title="MiniMart"
                 description="MiniMart is a cutting-edge e-commerce platform that seamlessly connects buyers and sellers in a dynamic online marketplace. Built with Django ,React and React Redux the application boasts a robust architecture designed for scalability and efficiency. I am in the process of integrating CI/CD pipelines and enhancing our infrastructure to further improve performance, while also working on M-Pesa integration and advanced user authentication. This evolving project exemplifies our commitment to innovative technology solutions and a superior user experience."
                 // liveLink="https://miniecommfrontend.vercel.app/"
                 githubLink="https://github.com/jakatsa/miniecommfrontend"
                 videoLink="https://www.awesomescreenshot.com/video/41620838?key=2d17617b434ff811a174bdad6010b7b5"
-              />
-
-              <ProjectCard
-                title="NextBeat"
-                description="Built with django in the backend and react, with react redux for state management  on the frontend, NextBeat lets users explore, upload, and trade beats effortlessly. With seamless registration and login, the platform is evolving with upcoming M-Pesa integration for smooth payments and messaging features for better collaboration.I am in the process of integrating CI/CD pipelines and enhancing our infrastructure to further improve performance, Stay tuned! "
-                // liveLink="https://nextbeatfrontend.onrender.com/"
-                videoLink="https://www.awesomescreenshot.com/video/41650232?key=e3277563df65542b39b29cdfe9a4a932"
               />
 
               <ProjectCard
