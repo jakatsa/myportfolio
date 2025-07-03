@@ -2,7 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Home.css";
 
-export const ProjectCard = ({ title, description, liveLink, githubLink }) => {
+export const ProjectCard = ({
+  title,
+  description,
+  liveLink,
+  githubLink,
+  videoLink,
+}) => {
   return (
     <div className="col-lg-11 col-xl-9 col-xxl-8">
       <div className="card overflow-hidden shadow rounded-4 border-0 mb-5">
@@ -17,17 +23,26 @@ export const ProjectCard = ({ title, description, liveLink, githubLink }) => {
                   {title}
                 </h3>
               </a>
-              <p>
-                {description}
+              <p>{description}</p>
+
+              {videoLink && (
+                <a href={videoLink} target="_blank" rel="noopener noreferrer">
+                  <h5 className="fw-bold" style={{ color: "#007BFF" }}>
+                    ▶️ Watch Demo Video
+                  </h5>
+                </a>
+              )}
+
+              {githubLink && (
                 <a href={githubLink} target="_blank" rel="noopener noreferrer">
                   <h4
                     className="fw-bolder"
                     style={{ color: "black", textDecoration: "none" }}
                   >
-                    Github link
+                    GitHub Link
                   </h4>
                 </a>
-              </p>
+              )}
             </div>
           </div>
         </div>
