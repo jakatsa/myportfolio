@@ -63,10 +63,10 @@ export const Experience = () => {
                 description="Studied web development at Moringa School. Learned the fundamentals of web development with HTML, CSS, JavaScript, React Js, Python, SQL, and Flask and created responsive web pages and robust web applications."
               />
               <EducationCard
-                institution="Mount Kenya University"
+                institution="Jomo Kenyatta University"
                 location="Nairobi"
                 certificate="Degree"
-                field="Criminology"
+                field="Computer Science"
               />
 
               <EducationCard
